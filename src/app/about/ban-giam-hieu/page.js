@@ -7,7 +7,7 @@ export default function About() {
       <h1 className="bg-[#1e3c9d] text-white py-2 px-4 font-bold text-xl">
         Ban giám hiệu nhà trường
       </h1>
-      <img src="http://yendinh1.edu.vn/uploads/hinh_anh_gv/20.jpg" />
+      <img src="/images/1233.jpg" />
       <p className="mt-4">
         Ngay sau khi được thành lập trường, năm học đầu tiên 1965-1966 trường có
         6 lớp, tổng số giáo viên của trường chỉ có 15 thầy cô giáo nhưng vấn đề

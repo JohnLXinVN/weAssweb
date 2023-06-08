@@ -64,11 +64,11 @@ export default function Home() {
               Tin tức, sự kiện
             </h3>
             <div className="p-3 flex border-b-2">
-              <img src="http://yendinh1.edu.vn/data/tmp/news_282_dap-an-thi-tot-nghiep-2016-1744_400-0.jpg" alt="" className="w-[200px] h-[200px]"/>
+              <img src="/images/anh4.jpg" alt="" className="w-[200px] h-[200px]"/>
               <p className="ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum tempora, quod facilis aliquam natus laboriosam! Id, vitae quo earum aspernatur asperiores veniam laborum ratione molestiae deserunt modi dignissimos consequatur cumque.</p>
             </div>
             <div className="p-3 flex border-b-2">
-              <img src="http://yendinh1.edu.vn/data/tmp/news_282_dap-an-thi-tot-nghiep-2016-1744_400-0.jpg" alt="" className="w-[200px] h-[200px]"/>
+              <img src="/images/anh4.jpg" alt="" className="w-[200px] h-[200px]"/>
               <p className="ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum tempora, quod facilis aliquam natus laboriosam! Id, vitae quo earum aspernatur asperiores veniam laborum ratione molestiae deserunt modi dignissimos consequatur cumque.</p>
             </div>
            
@@ -79,11 +79,11 @@ export default function Home() {
               Thông báo
             </h3>
             <div className="p-3 flex border-b-2">
-              <img src="http://yendinh1.edu.vn/data/tmp/news_282_dap-an-thi-tot-nghiep-2016-1744_400-0.jpg" alt="" className="w-[200px] h-[200px]"/>
+              <img src="/images/anh4.jpg" alt="" className="w-[200px] h-[200px]"/>
               <p className="ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum tempora, quod facilis aliquam natus laboriosam! Id, vitae quo earum aspernatur asperiores veniam laborum ratione molestiae deserunt modi dignissimos consequatur cumque.</p>
             </div>
             <div className="p-3 flex border-b-2">
-              <img src="http://yendinh1.edu.vn/data/tmp/news_282_dap-an-thi-tot-nghiep-2016-1744_400-0.jpg" alt="" className="w-[200px] h-[200px]"/>
+              <img src="/images/anh4.jpg" alt="" className="w-[200px] h-[200px]"/>
               <p className="ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum tempora, quod facilis aliquam natus laboriosam! Id, vitae quo earum aspernatur asperiores veniam laborum ratione molestiae deserunt modi dignissimos consequatur cumque.</p>
             </div>
            
@@ -94,11 +94,11 @@ export default function Home() {
               Hoạt động
             </h3>
             <div className="p-3 flex border-b-2">
-              <img src="http://yendinh1.edu.vn/data/tmp/news_282_dap-an-thi-tot-nghiep-2016-1744_400-0.jpg" alt="" className="w-[200px] h-[200px]"/>
+              <img src="/images/anh4.jpg" alt="" className="w-[200px] h-[200px]"/>
               <p className="ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum tempora, quod facilis aliquam natus laboriosam! Id, vitae quo earum aspernatur asperiores veniam laborum ratione molestiae deserunt modi dignissimos consequatur cumque.</p>
             </div>
             <div className="p-3 flex border-b-2">
-              <img src="http://yendinh1.edu.vn/data/tmp/news_282_dap-an-thi-tot-nghiep-2016-1744_400-0.jpg" alt="" className="w-[200px] h-[200px]"/>
+              <img src="/images/anh4.jpg" alt="" className="w-[200px] h-[200px]"/>
               <p className="ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum tempora, quod facilis aliquam natus laboriosam! Id, vitae quo earum aspernatur asperiores veniam laborum ratione molestiae deserunt modi dignissimos consequatur cumque.</p>
             </div>
            
@@ -109,11 +109,11 @@ export default function Home() {
               Trường xưa
             </h3>
             <div className="p-3 flex border-b-2">
-              <img src="http://yendinh1.edu.vn/data/tmp/news_282_dap-an-thi-tot-nghiep-2016-1744_400-0.jpg" alt="" className="w-[200px] h-[200px]"/>
+              <img src="/images/anh4.jpg" alt="" className="w-[200px] h-[200px]"/>
               <p className="ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum tempora, quod facilis aliquam natus laboriosam! Id, vitae quo earum aspernatur asperiores veniam laborum ratione molestiae deserunt modi dignissimos consequatur cumque.</p>
             </div>
             <div className="p-3 flex border-b-2">
-              <img src="http://yendinh1.edu.vn/data/tmp/news_282_dap-an-thi-tot-nghiep-2016-1744_400-0.jpg" alt="" className="w-[200px] h-[200px]"/>
+              <img src="/images/anh4.jpg" alt="" className="w-[200px] h-[200px]"/>
               <p className="ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum tempora, quod facilis aliquam natus laboriosam! Id, vitae quo earum aspernatur asperiores veniam laborum ratione molestiae deserunt modi dignissimos consequatur cumque.</p>
             </div>
            
@@ -124,11 +124,11 @@ export default function Home() {
               Gương mặt tiêu biểu
             </h3>
             <div className="p-3 flex border-b-2">
-              <img src="http://yendinh1.edu.vn/data/tmp/news_282_dap-an-thi-tot-nghiep-2016-1744_400-0.jpg" alt="" className="w-[200px] h-[200px]"/>
+              <img src="/images/anh4.jpg" alt="" className="w-[200px] h-[200px]"/>
               <p className="ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum tempora, quod facilis aliquam natus laboriosam! Id, vitae quo earum aspernatur asperiores veniam laborum ratione molestiae deserunt modi dignissimos consequatur cumque.</p>
             </div>
             <div className="p-3 flex border-b-2">
-              <img src="http://yendinh1.edu.vn/data/tmp/news_282_dap-an-thi-tot-nghiep-2016-1744_400-0.jpg" alt="" className="w-[200px] h-[200px]"/>
+              <img src="/images/anh4.jpg" alt="" className="w-[200px] h-[200px]"/>
               <p className="ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum tempora, quod facilis aliquam natus laboriosam! Id, vitae quo earum aspernatur asperiores veniam laborum ratione molestiae deserunt modi dignissimos consequatur cumque.</p>
             </div>
            

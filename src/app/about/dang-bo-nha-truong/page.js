@@ -7,7 +7,7 @@ export default function About() {
       <h1 className="bg-[#1e3c9d] text-white py-2 px-4 font-bold text-xl">
         Ban giám hiệu nhà trường
       </h1>
-      <img src="http://yendinh1.edu.vn/uploads/hinh_anh_gv/20.jpg" />
+      <img src="/images/1236.jpg" />
       <p className="mt-4">
       Ngay sau khi được thành lập trường, năm học đầu tiên 1965-1966 trường có 6 lớp, tổng số giáo viên của trường chỉ có 15 thầy cô giáo nhưng vấn đề ổn định tổ chức, bộ máy hoạt động được nhà trường và chính quyền các cấp coi trọng; trong đó thành lập Chi bộ đảng nhà trường là một trong những nhiệm vụ cấp bách đặt lên hàng đầu.
           Ngày 05/11/1965, Chi bộ Đảng đầu tiên của nhà trường được thành lập gồm 05 đồng chí: Nguyễn Bá Thiều, Nguyễn Công Hòa, Nguyễn Đình Lân, Phạm Xuân Thông và đồng chí Đào Ngọc Tảo. Trong đó Chi bộ do đồng chí Nguyễn Bá Thiều làm Bí thư. Những năm đầu trải qua bao vất vả, gian nan, dưới làn mưa bom, bão đạn ác liệt của Đế quốc Mỹ với nhiều lần trường chuyển địa điểm. Nhưng với đường lối đúng đắn của Chi bộ, các thế hệ học sinh và đội ngũ cán bộ giáo viên nhà trường kế tiếp nhau thi đua “Dạy tốt - Học tốt - Rèn luyện tốt” nhằm khẳng định truyền thống từng bước trên mỗi chặng đường của trường.

@@ -7,7 +7,7 @@ export default function About() {
       <h1 className="bg-[#1e3c9d] text-white py-2 px-4 font-bold text-xl">
         Ban giám hiệu nhà trường
       </h1>
-      <img src="http://yendinh1.edu.vn/uploads/about/25.jpg" />
+      <img src="/images/1235.jpg" />
       <p className="mt-4">
       
 Với khẩu hiệu hành động: “Học tập rèn luyện vì ngày mai lập nghiệp”,với tinh thần “ Đâu cần thanh niên có, đâu khó có thanh niên” Đoàn viên thanh niên trong nhà trường luôn xác định nhiệm vụ trọng tâm: Dạy tốt, học tốt, tu dưỡng rèn luyện và xây dựng tổ quốc. Trong những năm tháng khó khăn của chiến tranh, các thế hệ đoàn viên thanh niên trường PT cấp 3 Yên Định vừa học tập rèn luyện, xây dựng nhà trường vừa tham gia kháng chiến chống Mỹ. Những ngày đầu tiên thành lập, Đoàn viên thanh niên trong nhà trường đã cùng với toàn thể cán bộ, giáo viên, công nhân viên nhà trường xây dựng trường học ở Định Liên, Yên Ninh, Định Long...Bên cạnh đó Đoàn viên thanh niên nhà trường đã cố gắng tích luỹ kiến thức, rèn luyện phẩm chất đạo đức sẵn sàng lên đường nhập ngũ với tinh thần sẵn sàng đi bất cứ nơi đâu, làm bất kỳ việc gì khi tổ quốc cần. Trong cuộc kháng chiến chống Mỹ cứu nước, hơn 1.000 đoàn viên thanh niên tình nguyện lên đường nhập ngũ và hoàn thành xuất sắc nhiệm vụ. Nhiều người đã hiến trọn tuổi thanh xuân hoặc một phần xương máu cho tổ quốc, góp phần cùng quân dân cả nước làm nên đại thắng mùa xuân năm 1975 – thống nhất đất nước.

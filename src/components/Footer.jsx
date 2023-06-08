@@ -99,7 +99,7 @@ export default function Footer() {
           <div className="space-y-8">
             <img
               className="h-7"
-              src="http://yendinh1.edu.vn/uploads/untitled-2_1.png"
+              src="/images/untitled-2_1.png"
               alt="Company name"
             />
             

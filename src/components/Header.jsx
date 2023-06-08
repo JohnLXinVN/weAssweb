@@ -32,7 +32,7 @@ export default function Header() {
           <span className="sr-only">Your Company</span>
           <img
             className="h-8 w-auto"
-            src="http://yendinh1.edu.vn/uploads/untitled-2_1.png"
+            src="/images/untitled-2_1.png"
             alt=""
           />
         </a>
