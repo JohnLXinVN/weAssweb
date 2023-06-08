@@ -1,31 +1,40 @@
-
-'use client';
-import { useReducer, useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { useRouter } from 'next/router';
+"use client";
+import { useEffect, useReducer, useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { useRouter } from "next/router";
+import Link from "next/link";
 
 const navigation = [
-  { name: 'Trang chủ', href: '/' },
-  { name: 'Giới thiệu', href: '/about/ban-giam-hieu' },
-  { name: 'Tài liệu', href: '/tai-lieu' },
-  { name: 'Liên hệ', href: '/lien-he' },
-  { name: 'Hình ảnh', href: '/hinh-anh' },
-]
+  { name: "Trang chủ", href: "/" },
+  { name: "Giới thiệu", href: "/about/ban-giam-hieu" },
+  { name: "Tài liệu", href: "/tai-lieu" },
+  { name: "Liên hệ", href: "/lien-he" },
+  { name: "Hình ảnh", href: "/hinh-anh" },
+];
 
 export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const currentPath = window.location.pathname;
-  console.log(currentPath)
+  const [currentPath, setCurrentPath] = useState("");
 
-  
+  useEffect(() => {
+    setCurrentPath(window.location.pathname);
+  }, []);
+
   return (
     <header className="bg-[#74c3ff] shadow-sm">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between h-[88px] lg:px-6" aria-label="Global">
+      <nav
+        className="mx-auto flex max-w-7xl items-center justify-between h-[88px] lg:px-6"
+        aria-label="Global"
+      >
         <a href="/" className="-m-1.5 p-1.5">
           <span className="sr-only">Your Company</span>
-          <img className="h-8 w-auto" src="http://yendinh1.edu.vn/uploads/untitled-2_1.png" alt="" />
+          <img
+            className="h-8 w-auto"
+            src="http://yendinh1.edu.vn/uploads/untitled-2_1.png"
+            alt=""
+          />
         </a>
         <div className="flex lg:hidden">
           <button
@@ -39,14 +48,26 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex  items-center h-full">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className={currentPath == item.href ? "items-center text-sm font-semibold leading-6 text-white bg-red-500 h-full p-2 flex" : "items-center flex p-2 h-full text-sm font-semibold leading-6 text-gray-900"}>
+            <Link
+              key={item.name}
+              href={item.href}
+              className={
+                currentPath == item.href
+                  ? "items-center text-sm font-semibold leading-6 text-white bg-red-500 h-full p-2 flex"
+                  : "items-center flex p-2 h-full text-sm font-semibold leading-6 text-gray-900"
+              }
+            >
               {item.name}
-            </a>
+            </Link>
           ))}
-          
         </div>
       </nav>
-      <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+      <Dialog
+        as="div"
+        className="lg:hidden"
+        open={mobileMenuOpen}
+        onClose={setMobileMenuOpen}
+      >
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
@@ -80,13 +101,11 @@ export default function Header() {
                   </a>
                 ))}
               </div>
-              <div className="py-6">
-                
-              </div>
+              <div className="py-6"></div>
             </div>
           </div>
         </Dialog.Panel>
       </Dialog>
     </header>
-  )
+  );
 }
